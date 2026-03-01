@@ -25,6 +25,7 @@ def home():
 def square_root(x: float):
     if(x<0): return {"result":"Enter valid number"}
     print("GitHub Trigger Test - Shruti")
+    print("Webhook test Shruti")
     return {"result": math.sqrt(x)}
 
 @app.get("/factorial/{x}")
