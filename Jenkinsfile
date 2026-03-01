@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: "https://github.com/shrutirao1210/SPE-Mini.git"
+                git branch: 'main', url: "https://github.com/shrutirao1210/SPE-Mini-project.git"
             }
         }
         stage('Test') {
