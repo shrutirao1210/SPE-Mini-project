@@ -1,3 +1,5 @@
+## Scientific Calculator Mini Project
+
 ## Project Structure
 
 ### Root Files
